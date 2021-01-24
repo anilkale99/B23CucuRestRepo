@@ -1,20 +1,55 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/com/basic/Authentication/GetRequestWithDataDriven.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/com/basic/GetWithDataTable/GetRequestWithDataTable.feature");
 formatter.feature({
-  "name": "test authentication",
+  "name": "22test DataTable",
   "description": "",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "1.validate authentication",
+  "name": "122.validate Get Request values with DataTable",
   "description": "",
   "keyword": "Scenario"
 });
 formatter.step({
-  "name": "User login with username and pwd",
+  "name": "Get response from bookstore application",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "com.basic.Authentication.AuthenticationSD.User_login_with_username_and_pwd()"
+  "location": "com.basic.GetWithDataTable.GetWithDataTableSD.get_response_from_bookstore_application()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "you request for Get response",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "com.basic.GetWithDataTable.GetWithDataTableSD.you_request_for_Get_response()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user validate following in json",
+  "rows": [
+    {},
+    {},
+    {}
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "com.basic.GetWithDataTable.GetWithDataTableSD.user_validate_following_in_json(io.cucumber.datatable.DataTable)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "you check if its up and running",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "com.basic.GetWithDataTable.GetWithDataTableSD.youcheckifitsupandrunning()"
 });
 formatter.result({
   "status": "passed"

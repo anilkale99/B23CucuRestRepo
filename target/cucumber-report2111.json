@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-01-24T06:59:35.473Z",
+        "start_timestamp": "2021-01-24T07:03:24.203Z",
         "line": 3,
         "name": "122.validate Get Request values with DataTable",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5000000,
+              "duration": 3000000,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 3724000000,
+              "duration": 3755000000,
               "status": "passed"
             },
             "line": 5,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 2103000000,
+              "duration": 1604000000,
               "status": "passed"
             },
             "line": 6,

@@ -13,11 +13,11 @@ import io.cucumber.junit.CucumberOptions;
 		glue ={"com.basic.GetWithDataTable"},
 		plugin={"pretty",
 				"html:target/cucumber-htmlreport",
-				"json:target/cucumber-report2.json"
+				"json:target/cucumber-report2111.json"
 		}
 		)
 
-public class RunnerGetWithDataTable {
+public class RunnerGetWithDataTableTest {
 	
 	
 }
