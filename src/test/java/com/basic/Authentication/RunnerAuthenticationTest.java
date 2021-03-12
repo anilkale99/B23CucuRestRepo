@@ -13,7 +13,7 @@ import io.cucumber.junit.CucumberOptions;
 		glue ={"com.basic.Authentication"},
 		plugin={"pretty",
 				"html:target/cucumber-htmlreport",
-				"json:target/cucumber-report101.json"
+				"json:target/CucuReport/cucumber-report101.json"
 		}
 
 		)

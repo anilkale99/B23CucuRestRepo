@@ -13,7 +13,7 @@ import io.cucumber.junit.Cucumber;
 			glue={"com.basic.postFromTextFileSD"},
 			plugin={"pretty",
 					"html:target/cucumber-htmlreport",
-					"json:target/cucumber-report6.json"
+					"json:target/CucuReport/cucumber-report6.json"
 			}
 		)
 		

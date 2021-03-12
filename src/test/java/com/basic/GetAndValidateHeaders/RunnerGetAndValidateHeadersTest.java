@@ -13,7 +13,7 @@ import io.cucumber.junit.CucumberOptions;
 		glue ={"com.basic.GetAndValidateHeaders"},
 		plugin={"pretty",
 				"html:target/cucumber-htmlreport",
-				"json:target/cucumber-report312.json"
+				"json:target/CucuReport/cucumber-report312.json"
 		}
 
 		)

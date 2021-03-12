@@ -14,7 +14,7 @@ import io.cucumber.junit.Cucumber;
 			glue={"com.basic.postUpdatedJsonSD"},
 			plugin={"pretty",
 					"html:target/cucumber-htmlreport",
-					"json:target/cucumber-report8.json"
+					"json:target/CucuReport/cucumber-report8.json"
 			}
 		)
 		

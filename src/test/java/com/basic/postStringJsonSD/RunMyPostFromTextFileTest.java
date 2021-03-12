@@ -12,7 +12,7 @@ import io.cucumber.junit.Cucumber;
 		dryRun=false,
 		plugin={"pretty",
 				"html:target/cucumber-htmlreport",
-				"json:target/cucumber-report7.json"
+				"json:target/CucuReport/cucumber-report7.json"
 		}
 		
 		)

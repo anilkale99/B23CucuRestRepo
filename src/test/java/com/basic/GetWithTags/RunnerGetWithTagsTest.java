@@ -18,7 +18,7 @@ import io.cucumber.junit.CucumberOptions;
 		glue ={"com.basic.GetWithTags"},
 		plugin={"pretty",
 				"html:target/cucumber-htmlreport",
-				"json:target/cucumber-report4.json"
+				"json:target/CucuReport/cucumber-report4.json"
 		}
 
 		)

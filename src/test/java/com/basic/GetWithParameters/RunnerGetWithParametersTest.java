@@ -13,7 +13,7 @@ import io.cucumber.junit.CucumberOptions;
 		glue ={"com.basic.GetWithParameters"},
 		plugin={"pretty",
 				"html:target/cucumber-htmlreport",
-				"json:target/cucumber-report3.json"
+				"json:target/CucuReport/cucumber-report3.json"
 		}
 
 		)

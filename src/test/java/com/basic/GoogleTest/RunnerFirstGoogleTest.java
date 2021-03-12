@@ -13,7 +13,7 @@ import io.cucumber.junit.Cucumber;
 		glue ={"com.basic.GoogleTest"},
 		plugin={"pretty",
 				"html:target/cucumber-htmlreport",
-				"json:target/cucumber-report5.json"
+				"json:target/CucuReport/cucumber-report5.json"
 		}
 		
 		)
