@@ -20,3 +20,9 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
+- task: Docker@2
+  inputs:
+    containerRegistry: 'ServConnectionName'
+    repository: 'anilkale99/testdemo'
+    command: 'buildAndPush'
+    Dockerfile: '**/Dockerfile'
